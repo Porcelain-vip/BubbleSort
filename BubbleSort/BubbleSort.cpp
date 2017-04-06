@@ -16,6 +16,8 @@ int main()
 	for (auto& value : a) cin >> value;
 	BubbleSort<int>(a, 10);
 	cout << "Low-to-High:";
-	for (auto& value : a) cout << value << "   "; cout << endl;
-	return EXIT_SUCCESS;
+	for (auto& value : a) cout << value << "   ";
+	cin.get();
+	cin.get();
+	return 0;
 }
